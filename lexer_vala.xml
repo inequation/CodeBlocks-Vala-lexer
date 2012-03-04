@@ -93,25 +93,21 @@
                                    as base break case catch construct continue default delete do else
                                    ensures finally for foreach get if in is lock new requires return set
                                    sizeof switch this throw throws try typeof value var void while null
-                                   true false bool char double float int int8 int16 int32 int64 long short
-                                   size_t ssize_t string uchar uint uint8 uint16 uint32 uint64 ulong
-                                   unichar ushort public private protected static abstract"/>
+                                   true false public private protected static abstract"/>
                         <!-- Secondary keywords and identifiers -->
                         <Set index="1"
-                            value=""/>
+                            value="bool char double float int int8 int16 int32 int64 long short size_t
+                                   ssize_t string uchar uint uint8 uint16 uint32 uint64 ulong unichar
+                                   ushort GLib Gee BidirIterator Collection Comparable Deque Iterable
+                                   Iterator List ListIterator Map MapIterator MultiMap MultiSet Queue Set
+                                   SortedSet AbstractCollection AbstractList AbstractMap AbstractMultiMap
+                                   AbstractMultiSet AbstractQueue AbstractSet ArrayList HashMap
+                                   HashMultiMap HashMultiSet HashSet LinkedList PriorityQueue TreeMap
+                                   TreeMultiMap TreeMultiSet TreeSet"/>
                         <!-- Documentation comment keywords -->
                         <Set index="2"
-                            value="a addindex addtogroup anchor arg attention
-                                   author b brief bug c class code date def defgroup deprecated
-                                   dontinclude e em endcode endhtmlonly endif endlatexonly endlink
-                                   endverbatim enum example exception f$ f[ f] file fn
-                                   hideinitializer htmlinclude htmlonly if image include ingroup
-                                   internal invariant interface latexonly li line link mainpage name
-                                   namespace nosubgrouping note overload p page par param post pre
-                                   ref relates remarks return retval sa section see showinitializer
-                                   since skip skipline struct subsection test throw todo typedef
-                                   union until var verbatim verbinclude version warning weakgroup
-                                   $ @ \ & < > # { }"/>
+                            value="inheritDoc link deprecated see param since return throws
+                                   $ @ & < > # { }"/>
                 </Keywords>
                 <SampleCode value="lexer_vala.sample"
                         breakpoint_line="20"
