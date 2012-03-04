@@ -1,0 +1,31 @@
+/*
+ * Sample preview code
+ * This is a block comment
+ */
+
+using GLib; // this is a line comment
+
+/**
+  * This is a documentation comment block
+  * @param xxx does this (this is the documentation keyword)
+  * @authr some user (this is the documentation keyword error)
+  */
+
+void main()
+{
+	/// This is a documentation comment line
+	int numbers[20];
+	int average = 0;
+	char ch = '\n';
+	for (int i = 0; i < 20; ++i) // a breakpoint is set
+	{
+		numbers[i] = i; // active line (during debugging)
+		total += i; // error line
+	}
+	average = total / 20;
+	stdout.printf("%d\n%d\n", numbers[0], numbers[19]);
+	stdout.printf("total: %d average: %d\n", total, average);
+	stdout.printf("Press any key...\n");
+	stdin.read_line();
+}
+

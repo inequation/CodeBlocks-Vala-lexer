@@ -1,0 +1,11 @@
+How to use:
+
+1. Put the lexer_vala.* files in your (...)/lexers directory (e.g. /usr/share/codeblocks/lexers on Debian Linux).
+2. Restart Code::Blocks.
+3. Write a custom makefile for building your project and set C::B to use it (Project menu -> Properties -> This is a custom Makefile).
+4. ???
+5. PROFIT!!!!1
+
+Brought to you by http://github.com/inequation.
+
+Enjoy!
