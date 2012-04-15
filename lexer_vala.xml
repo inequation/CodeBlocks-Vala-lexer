@@ -93,7 +93,7 @@
                                    as base break case catch construct continue default delete do else
                                    ensures finally for foreach get if in is lock new requires return set
                                    sizeof switch this throw throws try typeof value var while null true
-                                   false public private protected static abstract"/>
+                                   false public private protected static abstract ref out const"/>
                         <!-- Secondary keywords and identifiers -->
                         <Set index="1"
                             value="bool char double float int int8 int16 int32 int64 long short size_t
@@ -103,7 +103,7 @@
                                    SortedSet AbstractCollection AbstractList AbstractMap AbstractMultiMap
                                    AbstractMultiSet AbstractQueue AbstractSet ArrayList HashMap
                                    HashMultiMap HashMultiSet HashSet LinkedList PriorityQueue TreeMap
-                                   TreeMultiMap TreeMultiSet TreeSet Gtk void"/>
+                                   TreeMultiMap TreeMultiSet TreeSet Gtk void Math"/>
                         <!-- Documentation comment keywords -->
                         <Set index="2"
                             value="inheritDoc link deprecated see param since return throws
